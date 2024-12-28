@@ -1,0 +1,87 @@
+/* 全局样式 */
+.App {
+  font-family: Arial, sans-serif;
+  color: #333;
+  text-align: center;
+  padding: 20px;
+}
+
+.header {
+  background-color: #4caf50;
+  color: white;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.main-content {
+  padding: 20px;
+}
+
+.section {
+  margin-bottom: 30px;
+}
+
+h1,
+h2 {
+  margin-bottom: 20px;
+}
+
+p {
+  margin-bottom: 10px;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.btn-primary,
+.btn-secondary {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.btn-primary {
+  background-color: #4caf50;
+  color: white;
+}
+
+.btn-primary:hover {
+  background-color: #45a049;
+}
+
+.btn-secondary {
+  background-color: #2196f3;
+  color: white;
+}
+
+.btn-secondary:hover {
+  background-color: #1976d2;
+}
+
+.highlight {
+  color: #4caf50;
+  font-weight: bold;
+}
+
+.connect-section,
+.account-info,
+.deploy-section,
+.import-section,
+.issue-section,
+.balance-section,
+.exchange-section {
+  margin-bottom: 20px;
+}
